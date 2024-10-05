@@ -1,0 +1,334 @@
+<mjml html lang="en">
+  <mj-head>
+
+    <mj-attributes>
+      <mj-all font-family="Roboto, Arial Narrow, Arial, Helvetica, sans-serif"></mj-all>
+      <mj-text color="#212121" font-weight="300" font-size="18px"></mj-text>
+      <mj-section background-color="#fff"></mj-section>
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .links {
+        font-size: 10px;
+        font-weight: 900;
+        text-decoration: none;
+        color: #646464;
+        word-break: break-word;
+      }
+
+      .links a {
+        text-decoration: none;
+        color: #646464;
+      }
+
+      .main-heading {
+        font-size: 28px;
+        font-weight: 900;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .main-image-section {
+        background-position: center center;
+      }
+
+      .number-square {
+        width: 48px;
+        height: 65px;
+        display: inline-block;
+        border: 1px solid #000;
+        text-align: center;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        line-height: 65px;
+        vertical-align: middle;
+      }
+
+      .number-row {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+      }
+
+      @media only screen and (max-width: 480px) {
+        .mobile-full-width {
+          width: 100% !important;
+        }
+
+        .mobile-padding {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+
+        .mobile-center {
+          align: left !important;
+        }
+
+        .mobile-font-size {
+          font-size: 16px !important;
+        }
+
+        .number-square {
+          width: 25px !important;
+          height: 25px !important;
+          font-size: 16px !important;
+
+        }
+
+        .mobile-image {
+          order: -1;
+        }
+
+        .mobile-full-width {
+          width: 100% !important;
+          display: flex !important;
+          flex-direction: column !important;
+        }
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body width="600px" background-color="#EBEBEB">
+
+    <!-- Section 1: HEADER SECTION -->
+    <mj-section background-color="#fff" css-class="header">
+      <mj-group>
+        <mj-column width="50%" css-class="mobile-full-width mobile-padding">
+          <mj-image css-class="logo" src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/PV1logo.gif" align="left" width="200px" padding="5px" />
+        </mj-column>
+        <mj-column width="50%" css-class="header-links mobile-full-width mobile-padding">
+          <mj-text font-size="13px" font-family="Helvetica" font-weight="900" css-class="links mobile-center" align="right" padding-top="25px" padding-bottom="0">
+            <a href="#">SERVICES</a>&nbsp;&nbsp;
+            <a href="#">FIND A STORE</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- SECTION 2: Hero Image Section -->
+    <mj-section background-url="https://www.vioc.com/globalassets/newsletter/july_2023/summer_oil_changes.jpg" background-size="cover" css-class="main-image-section" padding="0px">
+      <mj-column css-class="mobile-full-width mobile-padding">
+        <mj-spacer height="300px" />
+        <mj-text css-class="main-heading mobile-center mobile-font-size" align="center" font-size="36px" font-weight="700" color="#FFF" padding="10px">
+          WE APPRECIATE YOUR BUSINESS
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 3: Navy Spacer Bar Section-->
+    <mj-section background-color="#00316D" padding="0px">
+      <mj-column css-class="mobile-full-width">
+        <mj-spacer height="25px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 4: How did we do Text Section -->
+    <mj-section background-color="#fff" padding="10px 0">
+      <mj-column css-class="mobile-full-width mobile-padding">
+        <mj-text color="#0093D1" font-size="27px" font-family="Roboto" font-weight="900" padding-top="25px" css-class="mobile-center mobile-font-size">
+          How did we do?
+        </mj-text>
+        <mj-text padding-top="0px" font-family="Arial" color="#646464" font-size="19px" css-class="mobile-center mobile-font-size">
+          Tell us about your recent visit and <span style="color: #0093D1;">get rewarded</span> with <span style="color: #0093D1;">20% off your next visit.</span>
+        </mj-text>
+        <mj-text font-family="Arial" color="#646464" font-size="19px" font-weight="700" css-class="mobile-center mobile-font-size">How likely are you to recommend Valvoline Instant Oil Change to a friend or family member?</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 5: Rating Labels Section-->
+    <mj-section background-color="#fff" padding="10px 0">
+      <mj-group>
+        <mj-column width="40%" padding-top="0px" css-class="mobile-full-width mobile-padding">
+          <mj-text font-weight="800" color="#646464" css-class="mobile-center mobile-font-size">Not At All Likely</mj-text>
+        </mj-column>
+        <mj-column width="20%" css-class="mobile-full-width">
+          <mj-spacer height="24px" />
+        </mj-column>
+        <mj-column width="40%" css-class="mobile-full-width mobile-padding">
+          <mj-text font-weight="800" color="#646464" align="right" css-class="mobile-center mobile-font-size">Extremely Likely</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- SECTION 6: Rating Experience Section -->
+    <mj-section background-color="#fff" padding="0 0 10px 0">
+      <mj-column css-class="mobile-full-width mobile-padding">
+        <mj-text padding-top="0px">
+          <a href="#" style="text-decoration: none; color: #000;">
+            <div class="number-row">
+              <div class="number-square">0</div>
+              <div class="number-square">1</div>
+              <div class="number-square">2</div>
+              <div class="number-square">3</div>
+              <div class="number-square">4</div>
+              <div class="number-square">5</div>
+              <div class="number-square">6</div>
+              <div class="number-square">7</div>
+              <div class="number-square">8</div>
+              <div class="number-square">9</div>
+              <div class="number-square">10</div>
+            </div>
+          </a>
+        </mj-text>
+        <mj-text font-size="16px" color="#646464" css-class="mobile-center mobile-font-size">Thank you for your feedback. We look forward to seeing you again soon.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 7: 50% Column Section -->
+    <mj-section background-color="#ffffff" padding="20px 0">
+      <mj-column width="55%" css-class="mobile-full-width mobile-padding">
+        <mj-text font-size="24px" font-family="Roboto Condensed" font-weight="700" color="#0093D1" align="left" css-class="mobile-center mobile-font-size">
+          Stay informed about your vehicle's maintenance.
+        </mj-text>
+        <mj-text font-family="Helvetica" color="#646464" font-size="13px" line-height="15px" css-class="mobile-center mobile-font-size">As a Valvoline Instant Oil Change customer you'll receive valuable coupons and reminders in your inbox including:</mj-text>
+        <mj-text font-family="Helvetica" color="#646464" line-height="20px" font-size="14px" padding-top="0px" css-class="mobile-center mobile-font-size">
+          &#8226; Click-and-print coupons<br />
+          &#8226; Convenient vehicle maintenance reminders<br />
+        </mj-text>
+      </mj-column>
+      <mj-column width="45%" css-class="mobile-full-width mobile-padding">
+        <mj-image src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/assist.png" css-class="mobile-image"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 8: Centered Address Section -->
+    <mj-section background-color="#fff">
+      <mj-column background-color="#00316D" width="90%" padding="4px" css-class="mobile-full-width mobile-padding">
+        <mj-text color="#fff" align="center" padding-bottom="10px" font-size="18px" css-class="mobile-font-size">
+          Your Valvoline Instant Oil Change service center location:
+          <br>
+          <span style="font-weight: 700; font-size: 22px; padding-top: 10px;">8055 S Rainbow Blvd, Las Vegas, NV 89139</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 9: 50% Column Section -->
+    <mj-section background-color="#ffffff" padding="0px">
+      <mj-column width="50%" border-right="1px solid #00316D" css-class="mobile-full-width mobile-padding">
+        <mj-image src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/storefront.jpg" />
+        <mj-text font-size="25px" font-weight="900" color="#00316D" padding="0px 40px" css-class="mobile-center mobile-font-size">
+          <img src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/icon2.png" alt="Phone" style="vertical-align: middle; width: 30px; height: 30px;">
+          Call
+        </mj-text>
+        <mj-text font-size="25px" font-weight="900" color="#00316D" padding-left="40px" css-class="mobile-center mobile-font-size">
+          <img src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/icon1.png" alt="Phone" style="vertical-align: middle; width: 30px; height: 30px;">
+          Directions
+        </mj-text>
+        <mj-text color="#00316D" font-size="16px" font-weight="400" padding-left="40px" css-class="mobile-center mobile-font-size">For store hours and other locations <a href="#" style="text-decoration: none; color:#00316D; font-weight: bold;">visit store.vioc.com</a></mj-text>
+      </mj-column>
+
+      <mj-column width="50%" padding-left="20px" css-class="mobile-full-width mobile-padding">
+        <mj-text font-size="24px" font-weight="900" color="#00316D" css-class="mobile-center mobile-font-size">Hours</mj-text>
+        <mj-table color="#00316D" font-size="16px" line-height="35px" css-class="mobile-font-size">
+          <tr>
+            <td>Monday</td>
+            <td align="right">8:00am - 7:00pm</td>
+          </tr>
+          <tr>
+            <td style="padding-right: 20px;">Tuesday</td>
+            <td align="right">8:00am - 7:00pm</td>
+          </tr>
+          <tr>
+            <td style="padding-right: 20px;">Wednesday</td>
+            <td align="right">8:00am - 7:00pm</td>
+          </tr>
+          <tr>
+            <td style="padding-right: 20px;">Thursday</td>
+            <td align="right">8:00am - 7:00pm</td>
+          </tr>
+          <tr>
+            <td style="padding-right: 20px;">Friday</td>
+            <td align="right">8:00am - 7:00pm</td>
+          </tr>
+          <tr>
+            <td style="padding-right: 20px;">Saturday</td>
+            <td align="right">8:00am - 6:00pm</td>
+          </tr>
+          <tr>
+            <td style="padding-right: 20px;">Sunday</td>
+            <td align="right">9:00am - 5:00pm</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 10 Bottom Border Section:  -->
+    <mj-section padding="0px">
+      <mj-column>
+        <mj-divider border-color="#00316D" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 11 Icons + Plus Section  -->
+    <mj-section padding="0px">
+      <mj-column width="40%" css-class="mobile-full-width mobile-padding">
+        <mj-text align="left" font-size="22px" color="#505050" font-weight="700" css-class="mobile-center mobile-font-size">Connect with us</mj-text>
+      </mj-column>
+      <mj-column width="60%" css-class="mobile-full-width mobile-padding">
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0px 25px" align="right" css-class="mobile-center">
+          <mj-social-element name="facebook" href="https://www.facebook.com/YourPage" src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/icon-facebook.png" />
+          <mj-social-element name="instagram" href="https://www.instagram.com/YourPage" src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/icon-instagram.png" />
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/company/YourPage" src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/icon-linkedin.png" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 12 Colored Box Text Section  -->
+    <mj-section background-color="#fff" padding="20px 0">
+      <mj-column width="90%" background-color="#078BC7" css-class="mobile-full-width mobile-padding">
+        <mj-text color="#fff" align="left" font-size="28px" font-weight="800" css-class="mobile-center mobile-font-size">
+          Join Our Team!
+        </mj-text>
+        <mj-text padding-top="0px" color="#fff" font-size="14px" css-class="mobile-center mobile-font-size">We're passionate about cars, but we're really in the business of taking care of people. We're looking for individuals with a great smile, winning attitude, and willingness to learn. Click <a href="#" style="color: #fff; text-decoration: underline;">here</a> to apply.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 12 Contact + Unsubscribe Section -->
+    <mj-section background-color="#ffffff" padding="20px 0">
+      <mj-column width="55%" css-class="mobile-full-width mobile-padding">
+        <mj-text font-size="24px" font-family="Roboto" font-weight="900" color="#00316D" align="left" css-class="mobile-center mobile-font-size">
+          Contact us
+        </mj-text>
+        <mj-text font-family="Helvetica" font-size="13px" line-height="15px" css-class="mobile-font-size">
+          Do you have questions, comments, or just want to talk? We're ready to listen, please visit us online or give us a call at 1-800-FAST-CHANGE (1-800-327-8242).
+          <br><br>
+          This email was sent from Valvoline Instant Oil Change, 1‌0‌0 V‌alv‌oli‌ne Way, Lexi‌ng‌ton‌, KY 4‌05‌09.
+        </mj-text>
+      </mj-column>
+      <mj-column width="45%" css-class="mobile-full-width mobile-padding">
+        <mj-text font-size="24px" font-family="Roboto" font-weight="900" color="#00316D" align="left" css-class="mobile-center mobile-font-size">
+          Unsubscribe
+        </mj-text>
+        <mj-text font-family="Helvetica" font-size="13px" line-height="15px" css-class="mobile-font-size">
+          If you no longer want to receive these emails, please unsubscribe <a href="#" style="color: #000; text-decoration: underline;">here</a>. We'll be here if you decide to come back.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 13 Privacy Section -->
+    <mj-section background-color="#ffffff" padding="20px 0">
+      <mj-group>
+        <mj-column width="70%" css-class="mobile-full-width mobile-padding">
+          <mj-text font-size="24px" font-family="Roboto" font-weight="900" color="#00316D" align="left" css-class="mobile-center mobile-font-size">
+            Privacy
+          </mj-text>
+          <mj-text font-family="Helvetica" font-size="13px" line-height="15px" css-class="mobile-font-size">
+            Your safety and privacy are important to us. Click <a href="#" style=" color: #000;" text-decoration: underline;">here</a> to view our Privacy Policy.
+            <br><br>
+            There may be some links to External Sites in this email. Valvoline has no control over and is not responsible or liable for these External Sites. This is included, but not limited to the content and privacy and data collection practices. We included the External Sites for your convenience, and you may access them at your own risk.
+            <br><br>
+            ™ Trademark, Valvoline or its subsidiaries, registered in various countries.<br>
+            ℠ Service Mark, Valvoline or its subsidiaries, registered in various countries.<br>
+            © 2024 Valvoline™. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column width="30%" vertical-align="bottom" padding-top="40px" css-class="mobile-full-width mobile-padding">
+          <mj-image width="150px" src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/pylon-logo@2x.png" align="right" css-class="mobile-center"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+  </mj-body>
+</mjml>
