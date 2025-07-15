@@ -108,7 +108,11 @@
     </mj-section>
 
     <!-- SECTION 2: Hero Image Section -->
-    <mj-section background-url="https://www.vioc.com/globalassets/newsletter/july_2023/summer_oil_changes.jpg" background-size="cover" css-class="main-image-section" padding="0px">
+    <mj-section  background-url="https://s19532.pcdn.co/wp-content/uploads/2024/01/Valvoline-Restore-and-Protect-wide-shot-1400.jpg" 
+    background-size="cover"
+    background-repeat="no-repeat"
+    background-position="center center"
+   padding="0px">
       <mj-column css-class="mobile-full-width mobile-padding">
         <mj-spacer height="300px" />
         <mj-text css-class="main-heading mobile-center mobile-font-size" align="center" font-size="36px" font-weight="700" color="#FFF" padding="10px">
@@ -189,7 +193,7 @@
         </mj-text>
       </mj-column>
       <mj-column width="45%" css-class="mobile-full-width mobile-padding">
-        <mj-image src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/assist.png" css-class="mobile-image"></mj-image>
+        <mj-image src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/assist.png" css-class="mobile-image" alt="Image of Valvoline Worker"></mj-image>
       </mj-column>
     </mj-section>
 
@@ -207,13 +211,13 @@
     <!-- SECTION 9: 50% Column Section -->
     <mj-section background-color="#ffffff" padding="0px">
       <mj-column width="50%" border-right="1px solid #00316D" css-class="mobile-full-width mobile-padding">
-        <mj-image src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/storefront.jpg" />
+        <mj-image src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/storefront.jpg" alt="Image of Valvoline Building" />
         <mj-text font-size="25px" font-weight="900" color="#00316D" padding="0px 40px" css-class="mobile-center mobile-font-size">
-          <img src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/icon2.png" alt="Phone" style="vertical-align: middle; width: 30px; height: 30px;">
+          <img src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/icon2.png" alt="Phone" style="vertical-align: middle; width: 30px; height: 30px;" alt="Phone Icon">
           Call
         </mj-text>
         <mj-text font-size="25px" font-weight="900" color="#00316D" padding-left="40px" css-class="mobile-center mobile-font-size">
-          <img src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/icon1.png" alt="Phone" style="vertical-align: middle; width: 30px; height: 30px;">
+          <img src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/icon1.png" alt="Arrow Icon" style="vertical-align: middle; width: 30px; height: 30px;">
           Directions
         </mj-text>
         <mj-text color="#00316D" font-size="16px" font-weight="400" padding-left="40px" css-class="mobile-center mobile-font-size">For store hours and other locations <a href="#" style="text-decoration: none; color:#00316D; font-weight: bold;">visit store.vioc.com</a></mj-text>
@@ -325,7 +329,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="30%" vertical-align="bottom" padding-top="40px" css-class="mobile-full-width mobile-padding">
-          <mj-image width="150px" src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/pylon-logo@2x.png" align="right" css-class="mobile-center"></mj-image>
+          <mj-image width="150px" src="https://s3-us-west-2.amazonaws.com/vioc-image-bucket/PV1_Email_Galena_5dollar_7dollar/pylon-logo@2x.png" align="right" css-class="mobile-center" alt = "Valvoline Sign"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
